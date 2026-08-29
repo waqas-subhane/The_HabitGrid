@@ -1,0 +1,6 @@
+{
+  "name": "HabitGrid & Goal Master",
+  "description": "Gamified daily goals tracker with interactive spreadsheet habit matrix, visual analytics, notifications, exportable reports, dark mode, and secure user auth.",
+  "requestFramePermissions": ["notifications"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

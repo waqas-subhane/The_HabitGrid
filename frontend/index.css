@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    @apply antialiased text-stone-800 dark:text-stone-200 bg-stone-50 dark:bg-[#181715];
+  }
+}
+
+/* Custom smooth scroll and scrollbar for cozy feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(160, 150, 140, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(160, 150, 140, 0.4);
+}
